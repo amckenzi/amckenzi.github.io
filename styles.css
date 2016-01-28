@@ -1,101 +1,127 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
+/*font-family: 'Source Serif Pro', serif; 400, 600, 700*/ 
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+a:link {
+    text-decoration: none;
+    color: inherit;
+
 }
 
-/* this stuff is Jack's */
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
 
 body {
-    margin: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+li {
+	font-weight: 400;
+	font-family: 'Source Serif Pro', serif;
+}
+
+img {
+	width: 100%;
 }
 
 h1 {
-    font-family: 'Anonymous Pro';
-    font-weight: 700;
-    font-size: 3em;
+    font-weight: 400;
+	font-family: 'Source Serif Pro', serif;
 }
 
 h2 {
-    font-family: 'Anonymous Pro';
-    font-weight: 400;
-    font-style: italic;
-    line-height: 1.5em;
+	font-weight: 400;
+	font-family: 'Source Serif Pro', serif;
 }
 
-p {
-    font-family: 'Anonymous Pro';
-    font-weight: 400;
-    margin-bottom: 1em;
+h3 {
+	font-weight: 400;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 18px;
+	/*color: #C9C9C9;*/
+	color: black;
+	margin: 10px, 0px, 10px, 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	border: 2px solid white
 }
 
-a {
-    font-family: 'Anonymous Pro';
-    font-weight: 400;
+h3:hover {
+	border: 2px solid #ffcc00;
+	background-color: #ffcc00;
+	color: #black;
+	font-weight: 700;
+
 }
 
-.yellowhead {
-    background-color: #ffcc00;
-    padding:20px;
-    padding-right: 80px;
-    text-align: center;
-    width: 200px;
-    top:-50px;
-    display: inline-block;
-    position: relative;
+.myname {
+	font-weight: 700;
+	font-size: 36px;
+	font-family: 'Source Serif Pro', serif;
+	color: white;
+	position: relative;
+	top: -60px;
 }
 
-.indices {
-    display: inline-block;
-    position: relative;
-    padding:20px;
-    top: -20px;
-    background-color: white;
-    
+.yellow_box {
+	background-color: #ffcc00;
+	width: 40%;
+	height: 60px;
+	position: relative;
+	top: -20px;
+	left: 10px;
 }
 
-.banner_pic {
-    width: 100%;
+.imgtop {
+	width: 100px;
 }
+
+.clear {
+	clear: both;
+}
+
+.almost {
+	margin: 0px 0px 0px 30px;
+}
+
+.bio {
+	font-weight: 400;
+	font-family: 'Source Serif Pro', serif;
+	font-size: 80px;
+	line-height: 110%;
+	text-align: right;
+	color: #ffcc00;
+	margin-top: 0px;
+}
+
+.column1 {
+	width: 60%;
+	float: left;
+	font-size: 24pt;
+	padding: 00px;
+}
+
+.column2 {
+	width: 40%px;
+	float: left;
+	font-size: 24pt;
+	padding: 10px;
+	margin-top: -18px;
+	margin-left: 30px;
+}
+
+.wrapper {
+	width: 100%;
+	font-size: 0pt;
+	margin: -50px 0px 0px 0px;
