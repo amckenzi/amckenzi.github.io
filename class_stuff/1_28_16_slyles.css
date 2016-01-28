@@ -1,0 +1,33 @@
+body {
+    background-color: #3edbe9;
+    font-size: 56px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: red;
+}
+
+
+p {
+    font-size: 24px;
+    color: green;
+}
+
+/* this is a note */
+
+#first {
+    background-color: chartreuse;
+}
+
+.third {
+    font-size: 10px !important;
+}
+
+.special {
+    font-size: 18px;
+    color: orange;
+    background-color: black;
+}
+
+a {
+    color: red;
+}
