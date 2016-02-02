@@ -1,42 +1,53 @@
 <html>
   <head>
-  <title>Web Design 2: Development</title>
-  <link rel="stylesheet" href="styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,300,300italic,400italic,700italic|VT323' rel='stylesheet' type='text/css'>
+    <title>Web Design 2: Development</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
 <body>
 <div class="sidebar">
   <div class="container sidebar-sticky">
-    <h1><a href="/">Web Design 2</a></h1>
-    <ul>
-      <li>Fridays, 12:30&ndash;3:20 PM</li>
-      <li>Engineering Bldg., Rm. 204</li>
-      <li><a href="/pdf/web_design_2_spring_2015.pdf" target="_blank">Class Syllabus (PDF)</a></li>
-    </ul>
-    <h2>Instructor</h2>
-    <ul>
-      <li>Brendan Griffiths</li>
-      <li><a class="email-address" href="mailto:bgriffi3@pratt.edu">bgriffi3@pratt.edu</a></li>
-    </ul>
-    <h2>Lecture Notes</h2>
-    <ul>
-      <li><a href="/lecture/css-introduction/">CSS Introduction</a></li>
-      <li><a href="/lecture/getting-started/">Getting Started</a></li>
-    </ul>
-    <h2>Assignments</h2>
-    <ul>
-      <li><a href="/assignment/class-page/">Class Page</a></li>
-      <li><a href="/assignment/hello-world/">Hello World!</a></li>
-      <li><a href="/assignment/homepage/">Homepage</a></li>
-    </ul>
-    <h2>Appendix</h2>
-    <ul>
-      <li><a href="/readings/">Readings</a></li>
-      <li><a href="/resources/">Resources</a></li>
-      <li><a href="/students/">Students</a></li>
-    </ul>
-    <p>
-      <small>Last updated: January 30, 2015</small>
-    </p>
+    <div class="hero">
+      <h1><a href="/">Web Design 2</a></h1>
+      <ul>
+        <li>Fridays, 12:30&ndash;3:20 PM</li>
+        <li>Engineering Bldg., Rm. 204</li>
+        <li><a href="/pdf/web_design_2_spring_2015.pdf" target="_blank">Class Syllabus (PDF)</a></li>
+      </ul>
+    </div>
+    <div class="navbox">
+      <h2>Instructor</h2>
+      <ul>
+        <li>Brendan Griffiths</li>
+        <li><a class="email-address" href="mailto:bgriffi3@pratt.edu">bgriffi3@pratt.edu</a></li>
+      </ul>
+    </div>
+    <div class="navbox">
+      <h2>Lecture Notes</h2>
+      <ul>
+        <li><a href="/lecture/css-introduction/">CSS Introduction</a></li>
+        <li><a href="/lecture/getting-started/">Getting Started</a></li>
+      </ul>
+    </div>
+    <div class="navbox">
+      <h2>Assignments</h2>
+      <ul>
+        <li><a href="/assignment/class-page/">Class Page</a></li>
+        <li><a href="/assignment/hello-world/">Hello World!</a></li>
+        <li><a href="/assignment/homepage/">Homepage</a></li>
+      </ul>
+    </div>
+    <div class="navbox">
+      <h2>Appendix</h2>
+      <ul>
+        <li><a href="/readings/">Readings</a></li>
+        <li><a href="/resources/">Resources</a></li>
+        <li><a href="/students/">Students</a></li>
+      </ul>
+    </div>
+      <p>
+        <small>Last updated: January 30, 2015</small>
+      </p>
   </div>
 </div>
 <div class="content container">
@@ -50,7 +61,7 @@
         HTML stands for Hyper Text Markup Language. Markup is the key word in HTML, because HTML describes the content of the page.
       </p>
       <p>
-        CSS stands for Cascading Style Sheets. Here, Style is the key word. CSS styles the page’s contents.
+        CSS stands for Cascading Style Sheets. Here, Style is the key word. CSS styles the page's contents.
       </p>
       <p>
         CSS files end with the extension .css and are linked to your HTML page using the <code>&lt;link&gt;</code> tag:
