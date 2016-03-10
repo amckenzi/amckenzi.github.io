@@ -43,6 +43,14 @@ body {
     background-color: #26A7AD;
 }
 
+.stage {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
 .col2 {
     height: 2%;
     width: 100%;
@@ -70,7 +78,9 @@ body {
 h1 {
     position: absolute;
     color: white;
-    font-family: Arial, sans-serif
+    font-family: Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 48px;
 }
 
 .click {
@@ -78,5 +88,17 @@ h1 {
 }
 
 .splash {
-    background-color: blue;
+    margin: 0;
+    padding: 0;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 10000;
+  transform: translate(-50%,-50%);
+}
+
+.rings {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
 }
