@@ -99,13 +99,22 @@ body {
     font-family: "usual", Arial, sans-serif;
 }
 
-.content {
-    width: 2100px;
+body, html {
+padding: 0;
+  margin: 0;
+  font-size: 0;
+}
+
+.container {
+    width: 200%;
+    height: 100%;
     z-index: 1000;
+    position: relative;
+    display: inline-block;
 }
 
 .decoration {
-    display: block;
+    display: inline-block;
     position: fixed;
     width: 100%;
     z-index: 100;
@@ -144,13 +153,14 @@ h1 {
     letter-spacing: -2px;
     margin-top: 0px;
     margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .contentcell {
     display: inline-block;
     height: 100%;
-    width: 1000px;
-    padding: 0px 20px 0px 20px;
+    width: 100%;
 }    
 
 .fillable {
@@ -174,12 +184,27 @@ blue {
     font-weight: 100;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 a {
     font-weight: 500;
     text-decoration: none;
     color: inherit;
+}
+
+.addTruth {
+    display: inline-block;
+}
+
+.addLies {
+    display: inline-block;
+}
+
+.spacer {
+    width: 10%;
+    display: inline-block;
 }
 
 #hellotitle {
@@ -196,6 +221,17 @@ a {
 
 #truths {
     color: red;
+}
+
+#ambi {
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.3;
+    left: 50%;
+    top: 50px;
+    width: 100%;
+    text-align: center;
 }
 
 #lies {
