@@ -106,7 +106,7 @@ padding: 0;
 }
 
 .container {
-    width: 200%;
+    width: 250%;
     height: 100%;
     z-index: 1000;
     position: relative;
@@ -160,7 +160,7 @@ h1 {
 .contentcell {
     display: inline-block;
     height: 100%;
-    width: 100%;
+    width: 120%;
 }    
 
 .fillable {
@@ -188,6 +188,33 @@ blue {
     padding-right: 50px;
 }
 
+.form_statement {
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form_bias {
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.button {
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 a {
     font-weight: 500;
     text-decoration: none;
@@ -200,6 +227,7 @@ a {
 
 .addLies {
     display: inline-block;
+    float: right;
 }
 
 .spacer {
@@ -243,13 +271,60 @@ a {
     
 }
 
+@keyframes hoverSlide {
+    0%     {padding-left: 50px;}
+    100%   {padding-left: 100px;}
+}
 
+@keyframes unhoverSlide {
+    0%     {padding-left: 100px;}
+    100%   {padding-left: 50px;}
+}
 
+#truths .statement:hover {
+    animation-name: hoverSlide;
+    animation-duration: 1s;
+}
 
+#truths .statement {
+    animation-name: unhoverSlide;
+    animation-duration: 1s;
+}
 
+@keyframes hoverSlideLie {
+    0%     {padding-right: 50px;}
+    100%   {padding-right: 100px;}
+}
 
+@keyframes unhoverSlideLie {
+    0%     {padding-right: 100px;}
+    100%   {padding-right: 50px;}
+}
 
+#lies .statement:hover {
+    animation-name: hoverSlideLie;
+    animation-duration: 1s;
+}
 
+#lies .statement {
+    animation-name: unhoverSlideLie;
+    animation-duration: 1s;
+}
+
+form {
+    display: inline;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 1px solid gray;
+    
+}
+
+select {
+    font-size: 24px;
+    font-weight: 100;
+}
 
 
 

@@ -35,13 +35,16 @@
                        <h1 id="hellotitle">Tell the truth.</h1> 
                     </div>
                     <div class="fillable">
-                        <div class="statement" id="form_statement">
-                            First, you have to say "<editable>something that is true</editable>".
+                        <div class="form_statement">
+                            First, you have to say <editable><form><input type="text" id="fname" name="fname" placeholder="something that is true"></form></editable>.
                         </div>
-                        <div class="statement" id="form_bias">
-                            Then, declare if you are <red>conservative</red> or <blue>progressive</blue>.
+                        <div class="form_bias">
+                            Then, declare if you are <select>
+  <option value="red">Conservative</option>
+  <option value="blue">Progressive</option>
+</select>.
                         </div>
-                        <div class="statement">
+                        <div class="button">
                             <a href="result.html">Next ></a>
                         </div>
                     </div>
